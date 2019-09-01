@@ -1,5 +1,9 @@
 object CubeCalculator {
   def cube(x: Int) = {
-    x * x * x
+    if (x < 0) {
+      0
+    } else {
+      x * x * x
+    }
   }
 }
